@@ -4,7 +4,7 @@ data "aws_ami" "joindevops" {
 
   filter {
     name   = "name"
-    values = ["RHEL-9-DevOps-Practice"]
+    values = ["Redhat-9-DevOps-Practice"]
   }
 
   filter {
